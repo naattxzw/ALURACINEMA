@@ -1,0 +1,60 @@
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0); 
+    margin: 0px;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    margin-bottom: 300px;
+}
+
+header{
+    border-bottom: solid 2px  rgb(222, 190, 241);
+    padding:25px;
+    font-size: 25px;
+    color: rgb(237, 144, 177);
+}
+
+.chamada {
+    background: rgb(111, 201, 174);
+    padding-bottom: 50px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 350px;
+}
+
+h1{
+    font-size: 55px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-filmes {
+    display: flex;
+    overflow-x: auto;
+    gap: 49px
+}
+
+.categoria {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+}
+
+.categoria-filmes img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-filmes img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 0, 0); 
+}
+
+.categoria h2 {
+    color: rgb(255, 108, 108);
+}
